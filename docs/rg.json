@@ -1,0 +1,54 @@
+{
+      "accessPolicy": "OPEN",
+      "dataSample": {
+      },
+      "itemStatus": "ACTIVE",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:TransitManagement"
+      ],
+      "provider": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc",
+      "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+      ],
+      "location": {
+        "address": "Surat",
+        "type": "Place"
+      },
+      "@context": "https://voc.iudx.org.in/",
+      "tags": [
+        "itms",
+        "mobility",
+        "vehicle",
+        "transport",
+        "buses",
+        "gtfs",
+        "commute",
+        "route",
+        "bus tracking"
+      ],
+      "name": "surat-itms-dp-1",
+      "description": " In this notebook we consider the problem of Differentially Private release of statistics for an underlying data set. In particular, we consider an intelligent transport management system (ITMS) dataset which consists of records generated from transit buses operating in the city. The parameters reported by the buses include licence plate number, instantaneous speed, location coordinates (latitude and longitude), and observation Date-Time. The key goal is to release useful statistics, such as average speed and number of speed limit violations, about this dataset in such a way that the privacy of the users (drivers) is not compromised. We adopt the notion of differential privacy for this task, which is currently a widely accepted notion of privacy underlying several well-known privacy-preserving data releases and frameworks. On a high level, differential privacy provides plausible deniability to users whose data is being used to compute the statistics in the sense that the presence or absence of any user in the dataset does not change the statistic by much.  <img src=\"https://raw.githubusercontent.com/datakaveri/sandbox-itms-dp-1/main/docs/illustration.jpg\" alt=\"Smart Buses\" height=\"200\" width=\"300\"/> \t <img src=\"https://raw.githubusercontent.com/datakaveri/sandbox-itms-dp-1/main/docs/analytic1.png\" alt=\"Analytic1\" height=\"200\" width=\"300\"/>",
+      "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/cat-sandbox.iudx.org.in",
+      "resourceType": "MESSAGESTREAM",
+      "label": "Surat Transit Management System",
+      "dataDescriptor": {
+      },
+      "repositoryURL": "https://github.com/datakaveri/sandbox-itms-dp-1.git",
+      "referenceResources": [
+        {
+          "id": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-additional-info",
+          "name": "Static Transit Management data",
+          "description": "GTFS based static information of buses such as stops, routes, etc.",
+          "additionalInfoURL": "https://catalogue.iudx.org.in/dataset/suratmunicipal.org-6db486cb4f720e8585ba1f45a931c63c25dbbbda-rs.iudx.org.in-surat-itms-additional-info"
+        },{
+        "id": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-realtime-info",
+        "name": "Realtime Transit Management data",
+        "description": "Real time bus positions and daily trip schedules",
+        "additionalInfoURL": "https://catalogue.iudx.org.in/dataset/suratmunicipal.org-6db486cb4f720e8585ba1f45a931c63c25dbbbda-rs.iudx.org.in-surat-itms-realtime-info"
+        }
+      ],
+      "itemCreatedAt": "2021-07-05T12:05:26+0530",
+      "instance": "sandbox"
+}

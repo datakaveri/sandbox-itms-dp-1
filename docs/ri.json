@@ -1,0 +1,28 @@
+[
+  {
+    "tags": [
+      "itms",
+      "mobility",
+      "vehicle",
+      "transport",
+      "buses",
+      "gtfs",
+      "commute",
+      "route",
+      "bus tracking"
+    ],
+    "type": [
+      "iudx:Resource",
+      "iudx:TransitManagement"
+    ],
+    "description": "Compressed IMS dataset",
+    "@context": "https://voc.iudx.org.in/",
+    "label": "Realtime bus positions",
+    "provider": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc",
+    "name": "itms-CompressedRawData",
+    "itemStatus": "ACTIVE",
+    "resourceGroup": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/cat-sandbox.iudx.org.in/surat-itms-dp-1",
+    "downloadURL": "https://iudx-cat-sandbox-dev.s3.ap-south-1.amazonaws.com/dp-itms-1/CompressedRawDataset.csv",
+    "instance": "sandbox"
+  }
+]
