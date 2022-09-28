@@ -6,7 +6,7 @@
 
 ## The tools and techniques implemented in the notebook can be extended for a general spatio-temporal database where space is quantized into hexagonal regions and time of day is quantized into time-slots.
 
-## The jupyter notebook can be accessed and executed via Sandox: https://sandbox.iudx.org.in/
+## The interactive python notebook can be accessed and executed via Sandox: https://sandbox.iudx.org.in/
 
 ## A report describing the definitions, feature, and algorithms on differential privacy is contained in the file DP_ITMS_Report.docx (in the docs subfolder)
 
